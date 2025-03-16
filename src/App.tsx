@@ -27,7 +27,7 @@ function App() {
           <div className="section_inicio__titulo1 h-[50px] w-fit flex justify-between items-center text-[#e0e0e0] mb-5 max-md:flex-col">
             <img
               className="section_inicio__foto h-[50px] mr-5"
-              src="/Portaolio/public/symbols/html_simbolo.svg"
+              src="/Portafolio/public/symbols/html_simbolo.svg"
             />
             <h1 className="section_inicio__frase1 font-bold text-[40px] max-md:text-3xl">
               Hi!, I'm <span className="text-[#4caf50]">Víctor Fernández</span>,
@@ -50,7 +50,7 @@ function App() {
               <h3 className="text-3xl text-[#3a7ca5] mb-5">Get to know me!</h3>
               <img
                 className="section_sobreMi__img w-3/12 flex m-auto rounded-[50%]"
-                src="/Portaolio/public/perfil.enc"
+                src="/Portafolio/public/perfil.enc"
               />
               <div className="section_sobreMi__texto h-fit text-[22px] text-justify font-light leading-[35px] text-[#b3b3b3] mt-5 text-balance">
                 <p>
@@ -110,8 +110,8 @@ function App() {
                   text="TypeScript"
                   i={
                     <>
-                      <img src="/Portaolio/public/symbols/ts-gris.png" />
-                      <img src="/Portaolio/public/symbols/ts-hover.png" />
+                      <img src="/Portafolio/public/symbols/ts-gris.png" />
+                      <img src="/Portafolio/public/symbols/ts-hover.png" />
                     </>
                   }
                 />
@@ -123,8 +123,8 @@ function App() {
                   text="TailwindCSS"
                   i={
                     <>
-                      <img src="/Portaolio/public/symbols/tailwind-gris.png" />
-                      <img src="/Portaolio/public/symbols/tailwind-hover.png" />
+                      <img src="/Portafolio/public/symbols/tailwind-gris.png" />
+                      <img src="/Portafolio/public/symbols/tailwind-hover.png" />
                     </>
                   }
                 />
@@ -132,8 +132,8 @@ function App() {
                   text="Vite"
                   i={
                     <>
-                      <img src="/Portaolio/public/symbols/vite-gris.png" />
-                      <img src="/Portaolio/public/symbols/vite-hover.png" />
+                      <img src="/Portafolio/public/symbols/vite-gris.png" />
+                      <img src="/Portafolio/public/symbols/vite-hover.png" />
                     </>
                   }
                 />
@@ -181,8 +181,8 @@ function App() {
                     text="TypeScript"
                     i={
                       <>
-                        <img src="/Portaolio/public/symbols/ts-gris.png" />
-                        <img src="/Portaolio/public/symbols/ts-hover.png" />
+                        <img src="/Portafolio/public/symbols/ts-gris.png" />
+                        <img src="/Portafolio/public/symbols/ts-hover.png" />
                       </>
                     }
                   />
@@ -194,8 +194,8 @@ function App() {
                     text="TailwindCSS"
                     i={
                       <>
-                        <img src="/Portaolio/public/symbols/tailwind-gris.png" />
-                        <img src="/Portaolio/public/symbols/tailwind-hover.png" />
+                        <img src="/Portafolio/public/symbols/tailwind-gris.png" />
+                        <img src="/Portafolio/public/symbols/tailwind-hover.png" />
                       </>
                     }
                   />
@@ -203,8 +203,8 @@ function App() {
                     text="Vite"
                     i={
                       <>
-                        <img src="/Portaolio/public/symbols/vite-gris.png" />
-                        <img src="/Portaolio/public/symbols/vite-hover.png" />
+                        <img src="/Portafolio/public/symbols/vite-gris.png" />
+                        <img src="/Portafolio/public/symbols/vite-hover.png" />
                       </>
                     }
                   />

@@ -16,8 +16,15 @@ function Header({ section1Ref, section2Ref, section3Ref, section4Ref }: Props) {
       id="nav"
       className="header h-[70px] w-full z-[1] flex justify-center items-center fixed left-0 top-0 bg-transparent max-md:h-[10vh] max-md:bg-[#121212]"
     >
-      <img src="/public/icon2.png" className="header__logo hidden max-md:flex max-md:h-full" />
-      <div className="header__nav w-fit max-md:absolute max-md:w-full max-md:max-h-0 max-md:transition-all max-md:duration-300 max-md:ease-in max-md:overflow-hidden max-md:top-[10vh]">
+      <img
+        src="/Portafolio/public/icon2.png"
+        className="header__logo hidden max-md:flex max-md:h-full"
+      />
+      <div
+        className={`header__nav w-fit max-md:absolute max-md:w-full max-md:transition-all max-md:duration-300 max-md:ease-in max-md:overflow-hidden max-md:top-[10vh] ${
+          menu == true ? "max-md:max-h-[280px]" : " max-md:max-h-0"
+        }`}
+      >
         <ul className="header__list flex gap-5 max-md:flex-col max-md:w-full max-md:gap-0">
           <HeaderLink
             functionEnlace={section1Ref}
@@ -41,7 +48,10 @@ function Header({ section1Ref, section2Ref, section3Ref, section4Ref }: Props) {
           />
         </ul>
       </div>
-      <div onClick={() => setMenu(!menu!)} className="header__btn hidden max-md:flex absolute text-[40px] text-[color:var(--text)] right-[2vh] top-[2vh] hover:text-[color:var(--btn)]">
+      <div
+        onClick={() => setMenu(!menu!)}
+        className="header__btn hidden max-md:flex absolute text-[40px] text-[#b3b3b3] right-[2vh] top-[2vh] hover:text-[#4caf50]"
+      >
         <i className="fa-solid fa-bars" />
       </div>
     </header>
