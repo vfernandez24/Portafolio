@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/public/icon.png" />
+    <link rel="icon" type="image/png" href="/Portafolio/public/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porfolio Victor Fernandez</title>
-    <link rel="stylesheet" href="/src/styles/input.css" />
+    <link rel="stylesheet" href="/Portafolio/src/styles/input.css" />
     <script
       src="https://kit.fontawesome.com/16ace90703.js"
       crossorigin="anonymous"
@@ -80,6 +80,17 @@
       .habilidad.Responsive.Design:hover {
         color: #ff9800;
         border-color: #ff9800;
+      }
+      .section_proyectos__proyecto img:hover {
+        scale: 1.1;
+      }
+      @media screen and (max-width: 700px) {
+        .header__nav.visible {
+          max-height: 280px;
+        }
+        .header__item:nth-of-type(1) {
+          border-top: 1px solid var(--important);
+        }
       }
     </style>
   </head>
