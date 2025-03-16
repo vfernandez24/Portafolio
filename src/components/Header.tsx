@@ -17,7 +17,7 @@ function Header({ section1Ref, section2Ref, section3Ref, section4Ref }: Props) {
       className="header h-[70px] w-full z-[1] flex justify-center items-center fixed left-0 top-0 bg-transparent max-md:h-[10vh] max-md:bg-[#121212]"
     >
       <img
-        src="/Portafolio/public/icon2.png"
+        src="/Portafolio/icon2.png"
         className="header__logo hidden max-md:flex max-md:h-full"
       />
       <div
